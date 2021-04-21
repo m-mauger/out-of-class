@@ -37,3 +37,26 @@ p {
     background-color: rebeccapurple;
     transform: rotate(0.8turn);
 }
+
+/* @rules - provide instruction for what CSS should perform and how it should behave. */
+body {
+    background-color: cornsilk;
+}
+
+@media (min-width: 30em) {
+    body {
+        background-color: cornflowerblue;
+    }
+}
+
+/* shorthands - properties that set several values in a single line. */
+.shorthand {
+    padding: 10px 15px 15px 5px;
+
+    /* is the same as */
+
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
